@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./img/tat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 99px;
+    background-color: rgb(12, 12, 102);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+}
+
+hr {
+    border: 0;
+    background-color: rgb(0, 8, 255);
+    height: 1.5px;
+    margin: 40px 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-size: 1.3rem;
+    color: rgb(59, 200, 216);
+}
+
+
+.left {
+    font-size: 2rem;
+}
+
+.firstsection {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+
+}
+
+.leftsection .btn {
+    padding: 2px;
+    background: rgb(183, 108, 183);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.rightsection {
+    width: 30%;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.purple {
+    color: rgb(0, 8, 255);
+}
+
+#element {
+    color: rgb(0, 8, 255);
+}
+
+.secondsection h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 20px;
+    color: rgb(248, 246, 246);
+
+}
+
+.secondsection {
+    font-size: 1.6rem;
+    text-align: justify;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.thirdsection h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+
+}
+
+.thirdsection p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 5px;
+    color: rgb(253, 251, 251);
+
+}
+
+.third {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+
+}
+
+.leftport {
+    font-size: 1rem;
+    margin: 40px;
+    width: 40%;
+
+}
+
+.leftport h2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+    font-size: 2rem;
+    color: aqua;
+}
+
+.leftport h3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+
+.leftport p {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.rightport {
+    width: 40%;
+    margin: .40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.forth {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+
+}
+
+.rightforth {
+    font-size: 1rem;
+    margin: 40px;
+    width: 40%;
+
+}
+
+.rightforth h2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+    font-size: 2rem;
+    color: aqua;
+}
+
+.rightforth h3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+
+.rightforth p {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.leftforth {
+    width: 40%;
+    margin: .40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.fifth {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+
+}
+
+.leftfifth {
+    font-size: 1rem;
+    margin: 40px;
+    width: 40%;
+
+}
+
+.leftfifth h2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+    font-size: 2rem;
+    color: aqua;
+}
+
+.leftfifth h3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+
+.leftfifth p {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.rightfifth {
+    width: 40%;
+    margin: .40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fourthsection h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 20px;
+    color: rgb(248, 246, 246);
+
+}
+
+.fourthsection .location {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.fifthsection {
+    text-align: center;
+}
+
+.fifthsection h1 {
+    font-size: 2.4rem;
+    margin: 20px;
+    color: rgb(248, 246, 246);
+
+}
+
+
+.socialmedia {
+    position: absolute;
+    transform: translate(-53%, -50%);
+
+}
+
+i {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 50px;
+    padding: 20px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+
+}
+
+i:hover {
+    color: #00ffbf;
+    border: 1px solid rgb(0, 179, 255);
+    transition: .5s;
+}
+
+.sixthsection h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+
+}
+
+.sixthsection {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    background-color: #00eeff;
+}
+
+.column1 {
+    float: left;
+    width: 15%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    font-size: 1rem;
+    text-align: center;
+    margin: 20px;
+    color: rgb(254, 253, 253);
+
+}
